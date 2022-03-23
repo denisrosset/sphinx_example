@@ -1,0 +1,18 @@
+{
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "files.exclude": {
+        ".venv/": true,
+        "**/__pycache__": true,
+        "**/.mypy_cache": true,
+        "**/.pytest_cache": true,
+        "**/build": true,
+        "**/dist": true,
+        "docs/source/_autosummary": true
+    },
+    "esbonio.server.enabled": true,
+    "esbonio.sphinx.buildDir": "${workspaceFolder}/docs/build/html",
+    "esbonio.sphinx.confDir": "/home/denis/w/sphinx_example/docs/source",
+    "esbonio.sphinx.srcDir": "${workspaceFolder}/docs/source",
+    "jupyter.jupyterServerType": "local",
+}
